@@ -1,5 +1,7 @@
 
-const containers = 
-    document.getElementsByClassName('container');
-containers[0].classList.add('d-none');
-console.log(containers);
+
+
+let price = 25;
+
+showMessage(price);
+console.log(price);
