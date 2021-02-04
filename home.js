@@ -1,6 +1,5 @@
+'use strict';
 
-let i = -4;
-do {
-    console.log(i);
-    i--;
-} while (i > 0);
+const productId = 1234;
+
+console.log(productId);
