@@ -1,7 +1,7 @@
-let show = function showMessage(params) {
-    document.getElementById("message").textContent = params;
+function showMessage(message) {
+    document.getElementById('message').textContent = message;
 }
 
-function changePercent(percentage) {
-    document.getElementById("percentage").textContent = `${percentage}% OFF`;
+function changePercentOff(percentage) {
+    document.getElementById('percent-off').textContent = percentage + "% OFF";
 }
